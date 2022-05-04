@@ -258,6 +258,6 @@ body {
       }
 
       .contact__container {
-          display: flex;
+          margin-inline: auto;
       }
   }
