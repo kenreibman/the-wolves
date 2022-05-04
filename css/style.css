@@ -213,13 +213,13 @@ body {
   }
 
   .profile-img {
-      width: 30rem;
       height: 30rem;
+      width: 20rem;
       margin-inline: auto;
   }
   .profile-img img {
-    margin-inline: auto;
-}
+        object-fit: cover;
+    }
 
 .profile-description {
     text-align: center;
@@ -258,6 +258,6 @@ body {
       }
 
       .contact__container {
-          margin-inline: auto;
+          display: flex;
       }
   }
